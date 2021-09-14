@@ -17,7 +17,7 @@ public class TapArea : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     }
 }
 ```
-dan saya menambahkan Switch pada [AchievementController.cs](https://github.com/hoerzz/Incremental-Game/blob/main/Assets/Scripts/TapArea.cs) dan mengubah AchievementType untuk menambahkan reward  topi kepada player dan setiap Achievement kebuka akan mengubah warna topi
+dan saya menambahkan Switch pada [AchievementController.cs](https://github.com/hoerzz/Incremental-Game/blob/main/Assets/Scripts/AchievementController.cs) dan mengubah AchievementType untuk menambahkan reward  topi kepada player dan setiap Achievement kebuka akan mengubah warna topi
 ```c#
 switch (achievement.Type)
             {
